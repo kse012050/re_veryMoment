@@ -1,0 +1,142 @@
+a{text-decoration: none; color: black;}
+
+/* global */
+/* .welcomeArea , .contentsArea , footer */
+/* {width: 100%; max-width: 1920px; min-width: 970px; margin: 0 auto;} */
+.welcomeArea > div , .contentsArea > div h2 ,.introductionArea > div:not(:last-of-type) , .interviewArea div, .afterSchoolArea .afterSchoolWrap, .schoolLifeArea > div
+{width: 975px; margin: 0 auto;}
+.subGuideArea{font-size: 17px; color: #0061b7;}
+.btnArea{text-align: center;}
+.btnArea h4{font-size: 35px; font-weight: 400; color: #0061b7; margin-bottom: 14px;}
+.btnArea h4 span{font-weight: 700;}
+.btnArea ul{display: flex; justify-content: center; margin-bottom: 18px;}
+.btnArea ul li:first-of-type{ margin-right: 10px;}
+
+
+
+.welcomeArea{background: url(../images/headerBG.png) no-repeat center center; overflow: hidden;}
+/* .welcomeArea > div{width: 975px; margin: 0 auto;} */
+.welcomeArea > div{padding-top: 230px; position: relative;}
+.welcomeArea > div > img{position: absolute; right: -190px; top: 60px;}
+.welcomeArea > div h2{margin-bottom: 30px;}
+.welcomeArea > div > span{display: block; margin-bottom: 100px;}
+.welcomeArea > div > div{width: 850px;  margin-bottom: 355px;}
+.welcomeArea > div > div h3{font-size: 34px; font-weight: 100; color: white; text-align: center; position: relative; margin-bottom: 40px; background: url(../images/welcomeH3BG.png) no-repeat center center; background-size: 100%;}
+.welcomeArea > div > div h3::before{content: '';}
+.welcomeArea > div > div h3::after{}
+.welcomeArea > div > div h3 span{font-weight: 700;}
+.welcomeArea > div > div video{width: 100%; height: 445px;}
+.welcomeArea > div .menuArea{padding-bottom: 4px;}
+.welcomeArea > div .menuArea ul{display: flex; justify-content: space-between;}
+.welcomeArea > div .menuArea ul li{position: relative;}
+.welcomeArea > div .menuArea ul li:nth-of-type(1){margin-top: 70px;}
+.welcomeArea > div .menuArea ul li:nth-of-type(2){}
+.welcomeArea > div .menuArea ul li:nth-of-type(3){margin-top: 130px;}
+.welcomeArea > div .menuArea ul li:nth-of-type(4){margin-top: 45px;}
+.welcomeArea > div .menuArea ul li:not(:last-of-type)::after{content: ''; display: inline-block; width: 100%; height: 5px; background-color: #0061b7; position: absolute; left: 0; top: 0;}
+.welcomeArea > div .menuArea ul li:nth-of-type(1)::after{left: 50%; top: 63px; transform: rotateZ(-20deg);}
+.welcomeArea > div .menuArea ul li:nth-of-type(2)::after{left: 50%; top: 144px; transform: rotateZ(44deg);}
+.welcomeArea > div .menuArea ul li:nth-of-type(3)::after{left: 50%; top: 67px; transform: rotateZ(-18deg);}
+.welcomeArea > div .menuArea ul li figure{text-align: center;}
+.welcomeArea > div .menuArea ul li figure img{position: relative; z-index: 1; margin-bottom: 15px;}
+.welcomeArea > div .menuArea ul li figure figcaption{}
+.welcomeArea > div .menuArea ul li figure figcaption h3{font-size: 31px; font-weight: 700; margin-bottom: 6px;}
+.welcomeArea > div .menuArea ul li figure figcaption p{font-size: 20px; font-weight: 400; line-height: 1.175;}
+
+
+.contentsArea{}
+.contentsArea > div{background: url(../images/contentTitleBG.png) no-repeat center center; line-height: 0;}
+/* .contentsArea > div h2{width: 975px; margin: 0 auto;} */
+.contentsArea h3{display: inline-block; font-size: 47px; color: white; padding-top: 23px; position: relative; margin-bottom: 25px;}
+.contentsArea h3::before{content: ''; display: block; width: 100%; height: 5px; background-color: white; position: absolute; left: 0; top: 0;}
+
+/* 학교 소개 */
+.introductionArea{background: url(../images/introductionBG.png) no-repeat center center; min-width: 975px; height: 1395px; position: relative;}
+.introductionArea > div:first-of-type{padding: 95px 0 230px 0;}
+.introductionArea > div h3{display: inline-block; font-size: 47px; color: white; padding-top: 23px; position: relative; margin-bottom: 25px;}
+.introductionArea > div h3::before{content: ''; display: block; width: 100%; height: 5px; background-color: white; position: absolute; left: 0; top: 0;}
+.introductionArea > div .supportArea{text-align: center; padding: 48px 0 0 0; }
+.introductionArea > div .supportArea h4{font-size: 33px; font-weight: 900; line-height: 1.303; color: #0061b7;margin-bottom: 37px;}
+.introductionArea > div .supportArea h4 span{font-size: 25px; line-height: 1.56; color: #5a5a5a;}
+.introductionArea > div .supportArea > p{font-size: 20px; font-weight: 700; line-height: 1.45; margin-bottom: 20px;}
+.introductionArea > div .supportArea ul:first-of-type{display: flex; justify-content: center; margin-bottom: 60px;}
+.introductionArea > div .supportArea ul:first-of-type li{display: flex; flex-direction: column; justify-content: center; align-items: center; color: #0061b7; width: 220px; height: 220px; background-color:#dbe2e8; border-radius: 100%; position: relative;}
+.introductionArea > div .supportArea ul:first-of-type li h5{font-size: 21px; font-weight: 700; margin-bottom: 13px;}
+.introductionArea > div .supportArea ul:first-of-type li p{font-size: 17px; line-height: 1.588;}
+.introductionArea > div .supportArea ul:first-of-type li:not(:last-of-type){margin-right: 30px;}
+.introductionArea > div .supportArea ul:first-of-type li:not(:last-of-type)::after{content: ''; width: 100%; height: 2px; background-color: #005eb8; position: absolute; left: 100%; top: 50%;}
+.introductionArea > div .supportArea ul:nth-of-type(2){margin-bottom: 70px;}
+.introductionArea > div .supportArea ul:nth-of-type(2) li{text-align: center; color: #0061b7; margin-bottom: 30px;}
+.introductionArea > div .supportArea ul:nth-of-type(2) li h5{font-size: 23px; font-weight: 700; margin-bottom: 11px;}
+.introductionArea > div .supportArea ul:nth-of-type(2) li p{font-size: 17px;}
+.introductionArea > div .btnArea{text-align: center;}
+.introductionArea > div .btnArea h4{font-size: 35px; font-weight: 400; color: #0061b7; margin-bottom: 14px;}
+.introductionArea > div .btnArea h4 span{font-weight: 700;}
+.introductionArea > div .btnArea ul{display: flex; justify-content: center; margin-bottom: 18px;}
+.introductionArea > div .btnArea ul li{position: relative;}
+.introductionArea > div .btnArea ul li:first-of-type{ margin-right: 10px;}
+.introductionArea > div .btnArea ul li > img{position: absolute; bottom: 0;}
+.introductionArea > div .btnArea ul li:nth-of-type(1) > img{left: -75px; }
+.introductionArea > div .btnArea ul li:nth-of-type(2) > img{left: 290px; }
+.introductionArea > div .btnArea .subGuideArea{font-size: 17px; color: #0061b7;}
+.introductionArea > img{position: absolute; right: 0; bottom: -200px; bottom: -10.4vw; width: 31.6vw; min-width: 335px;}
+
+/* 재학생 인터뷰 */
+.interviewArea{background: url(../images/interviewBG.png) no-repeat center center;  height: 1082px;}
+.interviewArea > img{display: none;}
+.interviewArea div{padding-bottom: 294px;}
+.interviewArea div ul{display: flex; flex-wrap: wrap; padding: 55px 50px; box-sizing: border-box; background-color: #ececec; position: relative; z-index: 1;}
+.interviewArea div ul li{line-height: 0; width: calc(50% - 7.5px); cursor: pointer;}
+.interviewArea div ul li:nth-of-type(2n + 1){margin-right: 15px;}
+.interviewArea div ul li:nth-of-type(n + 3){margin-top: 15px;}
+
+/* 방과 후 특별활동 */
+.afterSchoolArea{background: url(../images/afterSchoolBG.png) no-repeat center center; height: 717px;}
+.afterSchoolArea .afterSchoolImgArea{display: none;}
+.afterSchoolArea .afterSchoolWrap{padding-bottom: 95px; position: relative;}
+.afterSchoolArea .afterSchoolWrap h4{font-size: 71px; font-weight: 100; color: #0061b7; margin-bottom: 53px;}
+.afterSchoolArea .afterSchoolWrap h4 span{font-weight: 700;}
+.afterSchoolArea .afterSchoolWrap .afterSchoolSupportArea{text-align: center; padding: 53px 45px 55px; background-color: #ececec;}
+.afterSchoolArea .afterSchoolWrap .afterSchoolSupportArea ul{display: flex; margin-bottom: 65px;}
+.afterSchoolArea .afterSchoolWrap .afterSchoolSupportArea ul li{flex: 1; }
+.afterSchoolArea .afterSchoolWrap .afterSchoolSupportArea ul li:not(:last-of-type){margin-right: 20px;}
+.afterSchoolArea .afterSchoolWrap .afterSchoolSupportArea ul li figure{line-height: 0;}
+.afterSchoolArea .afterSchoolWrap .afterSchoolSupportArea ul li figure img{width: 100%; margin-bottom: 7px;}
+.afterSchoolArea .afterSchoolWrap .afterSchoolSupportArea ul li figure figcaption{line-height: 1;}
+.afterSchoolArea .afterSchoolWrap .afterSchoolSupportArea ul li figure figcaption h5{font-size: 23px; font-weight: 900; color: #0061b7;}
+.afterSchoolArea .afterSchoolWrap > img{position: absolute; left: 295px; top: -385px;}
+
+
+/* 학생 생활 안내 */
+.schoolLifeArea{background: url(../images/schoolLifeBG.png) no-repeat center center; height: 1042px;}
+.schoolLifeArea > div{padding-bottom: 72px;}
+.schoolLifeArea > div > div{text-align: center; padding: 52px 45px 55px; background-color: #ececec; }
+.schoolLifeArea > div > div > h4{font-size: 29px; font-weight: 900; color: #0061b7; margin-bottom: 54px;}
+.schoolLifeArea > div > div > ul{display: flex; margin-bottom: 40px;}
+.schoolLifeArea > div > div > ul li{flex: 1; color: #0061b7; padding: 0 10px 27px; background-color: #d9e1e8; border-radius: 20px;}
+.schoolLifeArea > div > div > ul li:not(:last-of-type){margin-right: 13px;}
+.schoolLifeArea > div > div > ul li h5{font-size: 20px; font-weight: 900; line-height: 1.35; letter-spacing: -2px; padding-top: 60px; background: url(../images/QIcon.png) no-repeat center top 23px; margin-bottom: 23px; }
+.schoolLifeArea > div > div > ul li hr{border-color: #0061b7; margin: 0;}
+.schoolLifeArea > div > div > ul li div p:first-of-type{font-size: 18px; font-weight: 900; line-height: 1.333; letter-spacing: -1px; padding-top: 60px;  min-height: 69px; background: url(../images/AIcon.png) no-repeat center top 16px; margin-bottom: 16px;}
+.schoolLifeArea > div > div > ul li div p:nth-of-type(2){font-size: 15px; line-height: 1.8; letter-spacing: -2px;}
+.schoolLifeArea > div > div > .btnArea h4{font-size:27px; margin-bottom: 12px;}
+.schoolLifeArea > div > div > .btnArea ul{margin-bottom: 0;}
+.schoolLifeArea > div > div > .btnArea ul li{width: 265px; position: relative; }
+.schoolLifeArea > div > div > .btnArea ul li a{position: relative; z-index: 1;}
+.schoolLifeArea > div > div > .btnArea ul li a img{width: 100%;}
+.schoolLifeArea > div > div > .btnArea ul li > img{position: absolute; bottom: 0;}
+.schoolLifeArea > div > div > .btnArea ul li:nth-of-type(1) > img{left: -70px; width: 75px;}
+.schoolLifeArea > div > div > .btnArea ul li:nth-of-type(2) > img{right: -65px; width: 75px;}
+
+footer{background: url(../images/footerBG.png) no-repeat center center; position: relative; height: 531px;}
+footer div{width: 1015px; text-align: right; padding: 280px 0 110px;  margin: 0 auto; position: relative;}
+footer div > img{position: absolute; left: -127px; bottom: 0; width: 580px; }
+
+.interviewIframeArea{position: fixed; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); z-index: 15; display: none; justify-content: center; align-items: center; }
+.interviewIframeArea.active{display: flex;}
+.interviewIframeArea li{width: 1152px; height: 600px; background-color: white; position: relative; display: none;}
+.interviewIframeArea li.active{display: inline-block;}
+.interviewIframeArea li i{color: white; font-size: 50px; position: absolute; right: 0; top: -50px; cursor: pointer;}
+.interviewIframeArea li iframe{width: 100%; height: 100%;}
+
+.bannerArea{display: none;}

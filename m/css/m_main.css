@@ -1,20 +1,24 @@
 
+body{max-width: 767px; margin: 0 auto;}
+
 .welcomeArea > div ,.contentsArea > div h2,.introductionArea > div,.interviewArea div,.afterSchoolArea .afterSchoolWrap, .schoolLifeArea > div,footer h1
-{width: calc(100% - 88px); margin: 0 auto;}
+{width: calc(100% - 88px);  margin: 0 auto;}
 
 
-.welcomeArea{background: url(../images/headerBG.png) no-repeat center bottom; max-width: 767px; height: 100vh; background-size: cover;}
-.welcomeArea > div{display: flex; flex-direction: column; justify-content: center; width: calc(100% - 88px); height: 100%; margin: 0 auto; position: relative;}
-.welcomeArea > div > img{position: absolute; display: none;}
+.welcomeArea{background: url(../images/headerBG.png) no-repeat center bottom; max-width: 767px; height: 100vh; background-size: cover; position: relative;}
+.welcomeArea > div{display: flex; flex-direction: column; justify-content: center; width: calc(100% - 88px); height: 100%; margin: 0 auto; }
+.welcomeArea > div > img{position: absolute; right: 0; top: 5vh;}
 .welcomeArea > div h2{margin-bottom: 2vh;}
-.welcomeArea > div h2 img{width: 83.66%;}
-.welcomeArea > div span{display: block; margin-bottom: 3vh;}
+.welcomeArea > div h2 img{width: 83.66%; position: relative; z-index: 1;}
+.welcomeArea > div span{display: block; margin-bottom: 3vh; position: relative; z-index: 1;}
 .welcomeArea > div span img{width: 66%;}
-.welcomeArea > div div h3{margin-bottom: 1.4vh}
+.welcomeArea > div div{ position: relative; z-index: 1;}
+.welcomeArea > div div h3{margin-bottom: 1.4vh;}
 .welcomeArea > div div h3 img{width: 100%;}
 .welcomeArea > div div video{width: 100%;}
 
 
+.contentsArea{background-color: #005eb8;}
 .contentsArea h3{display: inline-block; font-size: 37px; color: white; padding-top: 0.486em; margin-bottom: 1.405em; position: relative;}
 .contentsArea h3::before{content: ''; width: 100%; height: 5px; background-color: white; position: absolute; left: 0; top: 0;}
 
@@ -85,7 +89,7 @@
 .schoolLifeArea > div > div > .btnArea ul{display: flex;}
 .schoolLifeArea > div > div > .btnArea ul li img{width: 100%;}
 
-footer{background: url(../images/footerBG.png) no-repeat center center; position: relative; height: 217px;}
+footer{background: url(../images/footerBG.png) no-repeat center center; position: relative; height: 217px; margin-bottom: 90px;}
 footer > img{position: absolute; left: 0; bottom: 0;}
 footer h1{text-align: right; padding: 110px 0 38px;}
 
@@ -97,7 +101,8 @@ footer h1{text-align: right; padding: 110px 0 38px;}
 .interviewIframeArea li i{color: white; font-size: 50px; position: absolute; right: 0; top: -50px; cursor: pointer;}
 .interviewIframeArea li iframe{width: 100%; height: 100%;}
 
-.bannerArea{display: none;}
+.bannerArea{position: fixed; right: 0; bottom: -3px; width: 100%; max-width: 640px; z-index: 10; text-align: right; }
+.bannerArea img{width: 100%; max-width: 450px;}
 
 @media screen and (max-width:639px){
 .welcomeArea > div ,.contentsArea > div h2,.introductionArea > div,.interviewArea div,.afterSchoolArea .afterSchoolWrap, .schoolLifeArea > div,footer h1

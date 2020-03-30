@@ -23,6 +23,16 @@ $(document).ready(function(){
         $("body").removeClass('active');
     });
 
+    var menuList = $('.welcomeArea > div .menuArea ul li a');
+    var menuOffset = ['#introductionArea' , '#interviewArea' , '#afterSchoolArea' ,'#schoolLifeArea'];
+    menuList.click(function(e){
+        e.preventDefault();
+        menuIndex = menuList.index(this);
+        
+        $('html, body').animate({scrollTop : $(menuOffset[menuIndex]).offset().top}, 400);
+    });
+    
+
     $('.bannerArea div a').click(function(e){
         e.preventDefault();
         var offset = $('footer').offset();

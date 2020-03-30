@@ -7,7 +7,7 @@ body{max-width: 767px; margin: 0 auto;}
 
 .welcomeArea{background: url(../images/headerBG.png) no-repeat center bottom; max-width: 767px; height: 100vh; background-size: cover; position: relative;}
 .welcomeArea > div{display: flex; flex-direction: column; justify-content: center; width: calc(100% - 88px); height: 100%; margin: 0 auto; }
-.welcomeArea > div > img{position: absolute; right: 0; top: 5vh;}
+.welcomeArea > div > img{position: absolute; right: 0; top: 19vh;}
 .welcomeArea > div h2{margin-bottom: 2vh;}
 .welcomeArea > div h2 img{width: 83.66%; position: relative; z-index: 1;}
 .welcomeArea > div span{display: block; margin-bottom: 3vh; position: relative; z-index: 1;}
@@ -101,8 +101,9 @@ footer h1{text-align: right; padding: 110px 0 38px;}
 .interviewIframeArea li i{color: white; font-size: 50px; position: absolute; right: 0; top: -50px; cursor: pointer;}
 .interviewIframeArea li iframe{width: 100%; height: 100%;}
 
-.bannerArea{position: fixed; right: 0; bottom: -3px; width: 100%; max-width: 640px; z-index: 10; text-align: right; }
-.bannerArea img{width: 100%; max-width: 450px;}
+.bannerArea{position: fixed; right: 0; bottom: -3px; width: 100%; z-index: 10; text-align: right; }
+.bannerArea div{ width: 100%; max-width: 767px; margin: 0 auto;}
+.bannerArea div img{width: 100%; max-width: 450px;}
 
 @media screen and (max-width:639px){
 .welcomeArea > div ,.contentsArea > div h2,.introductionArea > div,.interviewArea div,.afterSchoolArea .afterSchoolWrap, .schoolLifeArea > div,footer h1
@@ -121,6 +122,8 @@ footer h1{text-align: right; padding: 110px 0 38px;}
 
 .welcomeArea > div ,.contentsArea > div h2,.introductionArea > div,.interviewArea div,.afterSchoolArea .afterSchoolWrap, .schoolLifeArea > div,footer h1
 {width: calc(100% - 20px); margin: 0 auto;}
+
+.welcomeArea > div > img{width: 100px;}
 
 .contentsArea h3{font-size: 18px;}
 .contentsArea h3::before{height: 2.5px;}

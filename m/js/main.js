@@ -22,4 +22,10 @@ $(document).ready(function(){
         $('.interviewIframeArea li').removeClass('active');
         $("body").removeClass('active');
     });
+
+    $('.bannerArea div a').click(function(e){
+        e.preventDefault();
+        var offset = $('footer').offset();
+        $('html, body').animate({scrollTop : offset.top}, 400);
+    });
 });
